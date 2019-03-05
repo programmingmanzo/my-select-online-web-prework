@@ -5,5 +5,5 @@ def my_select(collection)
   select_array << yield(collection[i])
   i += 1 
 end
-select_array
+collection
 end
