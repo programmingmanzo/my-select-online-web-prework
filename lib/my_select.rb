@@ -1,6 +1,6 @@
 def my_select(collection)
   array_select = []
-  i = 0 
+  i = 1 
   while i < collection.length
   array_select << i if yield(collection[i]) != true          
   i += 1 
